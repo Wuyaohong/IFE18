@@ -1,0 +1,16 @@
+* {margin: 0 0;}
+body {font-size: 18px;}
+h1 {
+    float: left;
+    padding-top: 50px;
+    width: 200px;
+    height: 125%;
+    color: white;
+    text-align: center;
+    background-color: #65A5FA;
+}
+div {margin-left: 130px;}
+h2 {line-height: 80px;}
+dt {font-weight: 600;margin-top: 20px;}
+dd {margin-left: 0;}
+a {color: #65A5FA;}

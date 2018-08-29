@@ -1,0 +1,104 @@
+/* 七种实现左侧固定，右侧自适应的方法 */
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+.wrapper {
+    padding: 10px;
+    border: 1px dashed #ff6c60;
+}
+.left {
+    width: 120px;
+    border: 5px solid #ddd;
+}
+.right {
+    margin-left: 20px;
+    border: 5px solid #ddd;
+}
+/************* 双inline-block方法 *************/
+/* .wrapper {
+    box-sizing: content-box;
+    font-size: 0;    
+}
+.left,
+.right {
+    display: inline-block;
+    vertical-align: top;  
+    font-size: 14px;
+    box-sizing: border-box
+}
+.wrapper .right {
+    width: calc(100% - 140px);    
+}  */
+ /************* 双float方法*********************/
+/* .wrapper {
+    overflow: auto;
+    box-sizing: content-box;
+}
+.wrapper .left,
+.wrapper .right {
+    float: left;
+    box-sizing: border-box;
+}
+.wrapper .right {
+    width: calc(100% - 140px);
+} */
+
+ /************* float+margin-left方法 **********/
+/* .wrapper {
+    overflow: hidden;
+}
+.wrapper .left {
+    float: left;
+}
+.wrapper .right {
+    margin-left: 150px;  
+} */
+
+ /************* absolute+margin-left方法 *******/
+/* .wrapper {
+    min-height: 200px;
+}
+ .wrapper .left {
+     position: absolute;
+ }
+ .wrapper .right {
+     margin-left: 150px;
+ } */
+ /************* float+BFC方法 ******************/
+ /* .wrapper {
+     overflow: auto;
+ }
+ .wrapper .left {
+     float: left;
+     margin-right: 20px;
+ }
+ .wrapper .right {
+     overflow: auto;
+     margin-left: 0;
+ } */
+ /************* flex方法 ******目前最好的方案****/
+  .wrapper {
+      display: flex;
+      align-items: flex-start;
+  }
+  .left {
+      flex: 0 0 auto;
+  }
+  .right {
+      flex: 1 1 auto;
+  }
+ /************* grid方法 ***********************/
+ /* .wrapper {
+     display: grid;
+     grid-template-columns: 120px 1fr;
+     align-items: start;
+ }
+ .left {
+     box-sizing: border-box;
+     grid-column: 1;
+ }
+ .right {
+     box-sizing: border-box;
+     grid-column: 2;
+ } */

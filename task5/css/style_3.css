@@ -1,0 +1,43 @@
+* {margin: 0 0;padding: 0 0;}
+body {
+    font-size: 14px;
+}
+h1 {
+    padding-left: 2em;
+    color: white;
+    line-height: 60px;
+    font-size: 18px;
+    background-color: #858585;
+}
+h2 {
+    float: left;
+    width: 120px;
+    height: 120px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 120px;
+    background-color: #d6d6d6;
+}
+table,
+dl {
+    height: 120px;
+    margin-left: 130px;
+    font-size: 15px;
+}
+a {color: dodgerblue;}
+td {
+    vertical-align: top;
+    padding-top: 10px;
+}
+dt {
+    float: left;
+    padding-top: 10px;
+    font-weight: 600;
+}
+dd {
+    padding-top: 10px;
+}
+.detail {
+    margin-bottom: 0;
+    border-bottom: 2px solid #eee;
+}

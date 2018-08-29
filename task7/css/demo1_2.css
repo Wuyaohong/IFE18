@@ -1,0 +1,20 @@
+/* 使用Position实现两栏、三栏布局 */
+* {padding: 0 0;margin: 0 0;}
+section {height: 100px;width: 100%;}
+div {height: 100px;}
+#box1_1 {position:absolute;left:0;width: 30%;background-color: magenta;}
+#box1_2 {margin-left: 30%;width: 70%;background-color: lightgreen;}
+
+#box2_1 {position: absolute;left: 0;width: 200px;background-color: lightcoral;}
+#box2_2 {margin-left: 200px;background-color: hotpink;}
+
+#box3_1 {position: absolute;right: 0;width: 200px;background-color: darkturquoise;}
+#box3_2 {margin-right: 200px;background-color: darkkhaki;}
+
+#box4_1 {position:absolute;left: 0;top:300;width:200px;background-color: gold;}
+#box4_2 {position: absolute;right: 0;width:200px;background-color: hotpink;}
+#box4_3 {margin-left: 200px;background-color: greenyellow;} 
+
+#box5_1 {position: absolute;left: 0;width: 200px;background-color: dodgerblue;}
+#box5_2 {position: absolute;left: 200px;width: 200px;background-color: cyan;}
+#box5_3 {margin-left: 400px;background-color: coral;}
