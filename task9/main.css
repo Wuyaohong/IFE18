@@ -1,0 +1,437 @@
+* { margin: 0;padding: 0;}
+header {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-image: url(img/headbgi.png);
+
+}
+#bgm_transparent {
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+    color: grey;
+    background: rgba(0, 0, 0, 0.6)
+}
+ header h1 {
+    height: 200px;
+    width: 100%;
+    line-height: 200px;
+    font-weight: 100;
+    color: white;
+}
+header p {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+#register {
+    height: 220px;
+    width: 700px;
+    margin: 0 auto;
+    border: solid grey 1px;
+    border-radius: 5px;
+}
+ header h4 {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+    font-weight: 300;
+    color: white;
+}
+h6 {
+    height: 20px;
+    line-height: 20px;
+    font-weight: 100;
+}
+ header form {
+    height: 80px;
+    line-height: 80px;
+    
+}
+ header input {
+    height: 35px;
+    width: 200px;
+    margin: 0 12px;
+    padding-left: 5px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    color: grey;
+    background: rgba(255, 255, 255, 0)
+}
+#sign_up {
+    width: 80px;
+    padding-left: 0;
+    color: black;
+    background-color: white;
+}
+/* 第二部分 */
+#section_1 {
+    height: 500px;
+    width: 100%;
+}
+#SOATLOADS {
+    height:80px;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+    font-weight: 500;
+}
+#section_1 h2 {
+    height: 100px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+    white-space: pre-wrap;
+    font-weight: 300;
+}
+dl {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+dd {
+    font-size: 12px;
+    padding-top: 10px;
+}
+.IMG {
+    vertical-align: text-top;
+}
+#f_dl dt {
+    padding-left: 220px;  
+}
+#f_dl dd {padding-left: 250px;}
+#f_dl dt,
+#s_dl dt {
+    margin-top: 50px;
+}
+#s_dl dt {
+    padding-left: 85px;
+}
+#s_dl dd {padding-left: 115px;}
+/* 第三部分 ***Ipad屏、幕资料部分*/
+#section_2 {
+    height: 683px;
+    width: 100%;
+    background-image: url(img/section2bgi.png);
+}
+#bgi_trans {
+    position: relative;
+    height: 683px;
+    width: 100%;
+    color: lightgray;
+    background: rgba(0, 0, 0, 0.6);
+}
+#l_text {
+    position: absolute;
+    float: left;
+    width: 35%;
+    height: 450px;
+    left: 200px;
+    top: 190px;
+}
+#l_text h1 {
+    width: 300px;
+    font-weight: 300;
+}
+#l_text p {
+    width: 300px;
+    margin: 40px 0;
+    font-size: 12px;
+    line-height: 24px;
+}
+#l_text button {
+    height:40px;
+    width: 170px;
+    font-size: 12px;
+    color: black;
+    border: 1px lightgray solid;
+    border-radius: 3px;
+    background: white;
+}
+#l_text #try_pro {
+    margin-left: 20px;
+    color: lightgray;
+    background: none;
+}
+#r_screen {
+    position: absolute;
+    float: left;
+    width: 600px;
+    height: 550px;
+    right: 0;
+    top: 66px;
+    background-image: url(img/IPad.png);
+}
+#r_screen img {
+    position: absolute;
+    right: 0;
+    top: 28px;
+}
+/********** 第三部分******try our products部分*****/
+#section_3 {
+    height: 400px;
+}
+#section_3 h1 {
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    line-height: 120px;
+    font-weight: 400;
+}
+#awesome_pro {
+    margin: 40px auto;
+    height: 200px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+#awesome_pro div {
+    width: 250px;
+    height: 200px;
+}
+#awesome_pro img {
+    margin: 10px 40px;
+}
+#awesome_pro p {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    color: grey;
+}
+/******* 第四部分…………鸟和树叶**** */
+.section_4 {
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+.section_4 div {
+    height: 300px;
+    width: 800px;
+    margin: 80px auto 40px auto;
+}
+ .section_4 #bird {
+    margin: 20px auto;
+}
+#leaf h3 {
+    float: right;
+    width: 300px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+#leaf p {
+    float: right;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: grey;
+}
+#leaf img {
+    float: left;
+}
+#bird h3 {
+    float: left;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+#bird p {
+    width: 300px;
+    font-size: 14px;
+    color: grey;
+}
+#bird img {
+    float: right;
+}
+/* 第五，团队成员部分 */
+#section_5 {
+    width: 100%;
+    height: 900px;
+    border-top: 1px solid lightgray;
+}
+#section_5 h1 {
+    width: 100%;
+    height: 40px;
+    margin: 80px auto 20px auto;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 400;
+}
+#section_5 p {
+    width: 600px;
+    height: 40px;
+    margin: 20px auto 60px auto;
+    text-align: center;
+    color: grey;
+}
+#team {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#crew1 {
+    background-image: url(img/crew1.png);
+}
+#crew2 {
+    background-image: url(img/crew2.png);
+}
+#crew3 {
+    background-image: url(img/crew3.png);
+}
+#crew4 {
+    background-image: url(img/crew4.png);
+}
+#crew1,
+#crew3 {
+    float: left;
+    overflow: hidden;
+    width: 380px;
+    height: 275px;
+    margin-bottom: 35px;
+}
+#crew2,
+#crew4 {
+    float: right;
+    width: 380px;
+    height: 275px;
+    margin-bottom: 35px;
+}
+/******* 鼠标放在照片上显示的样式 ********/
+.acti {
+    display: none;
+}
+.crew_pho:hover .acti{
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    width: 380px;
+    height: 275px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.acti h3 {
+    width: 380px;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    color: lightgrey;
+}
+.acti span {
+    margin: 20px 0;
+    color: lightgray;
+}
+.circles {
+    height: 60px;
+    width: 300px;
+    margin: 40px auto;
+}
+.cir {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 23px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+.img1 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.img2 {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.img3 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+/* ********************* */
+.section_4 form {
+    position: absolute;
+    left: 280px;
+    height: 400px;
+    width: 300px;
+    margin-top: 80px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.section_4 h4 {font-weight: 400;}
+.section_4 form input {
+    height: 35px;
+    width: 200px;
+    padding-left: 5px;
+}
+textarea {
+    padding-left: 5px;
+    margin: 10px auto;
+    vertical-align: middle;
+}
+#send {
+    color: white;
+    border:  black;
+    background-color: black;
+}
+#contacts {
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+    margin-left: 750px;
+}
+#contacts h1 {
+    margin-top: 40px;
+}
+#contacts p {
+    margin: 25px auto;
+    font-size: 14px;
+    color: rgba(20, 20, 20, 0.702);
+}
+#contacts ul li {
+    list-style-position: inside;
+    line-height: 40px;
+}
+#contacts li:nth-child(1) {
+    list-style-image: url(img/Map\ Icon.png);
+    white-space: pre-wrap;
+}
+#contacts li:nth-child(2) {
+    list-style-image: url(img/Phone\ Icon.png);
+}
+#contacts li:nth-child(3) {
+    list-style-image: url(img/Mail\ Icon.png);
+}
+footer {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    color: gray;
+    background-color: black;
+}
+table {
+    /* height: 200px; */
+    width: 1000px;
+    margin: 70px auto 0 auto;
+}
+th,
+td {
+    width: 150px;
+    height: 30px;
+    text-align: left;
+    font-size: 14px;
+}
+th {
+    font-weight: 400;
+    color: lightgrey;
+}
+table img {
+    margin-right: 15px;
+}
